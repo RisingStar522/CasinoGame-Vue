@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "filepond-plugin-file-encode@2.1.9",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "filepond-plugin-file-encode@2.1.9",
+  "_id": "filepond-plugin-file-encode@2.1.9",
+  "_inBundle": false,
+  "_integrity": "sha512-HKM+ok6X6HBAg0fZt/dgA0aly7YJa2+OtWNd6cWc3D0wAXpApZp+f139g1a8uRaARsFxCBaKrzeWOFJWx3xXug==",
+  "_location": "/filepond-plugin-file-encode",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "filepond-plugin-file-encode@2.1.9",
+    "name": "filepond-plugin-file-encode",
+    "escapedName": "filepond-plugin-file-encode",
+    "rawSpec": "2.1.9",
+    "saveSpec": null,
+    "fetchSpec": "2.1.9"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/filepond-plugin-file-encode/-/filepond-plugin-file-encode-2.1.9.tgz",
+  "_spec": "2.1.9",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "PQINA",
+    "url": "https://pqina.nl/"
+  },
+  "browser": "dist/filepond-plugin-file-encode.js",
+  "browserslist": [
+    "last 1 version and not Explorer 10",
+    "Explorer 11",
+    "iOS >= 9",
+    "Android >= 4.4"
+  ],
+  "bugs": {
+    "url": "https://github.com/pqina/filepond-plugin-file-encode/issues"
+  },
+  "description": "File Encoding Plugin for FilePond",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "rollup": "^1.7.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-license": "^0.8.1",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-prettier": "^0.6.0",
+    "rollup-plugin-terser": "^4.0.4"
+  },
+  "files": [
+    "dist",
+    "types/*.d.ts"
+  ],
+  "homepage": "https://pqina.nl/filepond/",
+  "license": "MIT",
+  "main": "dist/filepond-plugin-file-encode.js",
+  "module": "dist/filepond-plugin-file-encode.esm.js",
+  "name": "filepond-plugin-file-encode",
+  "peerDependencies": {
+    "filepond": ">=3.x <5.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqina/filepond-plugin-file-encode.git"
+  },
+  "scripts": {
+    "build": "npx rollup -c",
+    "start": "npx rollup -c -w"
+  },
+  "types": "types/index.d.ts",
+  "version": "2.1.9"
+}

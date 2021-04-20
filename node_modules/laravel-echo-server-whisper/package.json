@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      "laravel-echo-server-whisper@1.6.2-alfa-3",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "laravel-echo-server-whisper@1.6.2-alfa-3",
+  "_id": "laravel-echo-server-whisper@1.6.2-alfa-3",
+  "_inBundle": false,
+  "_integrity": "sha512-9DCU2Y3g3KHM45AqBYp56FXbAxRtHUrEqAoQC3K4pJaVrmGHGRdKWnbw1WBodYPUiYMTAu5SxmCEkz/QigLoug==",
+  "_location": "/laravel-echo-server-whisper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "laravel-echo-server-whisper@1.6.2-alfa-3",
+    "name": "laravel-echo-server-whisper",
+    "escapedName": "laravel-echo-server-whisper",
+    "rawSpec": "1.6.2-alfa-3",
+    "saveSpec": null,
+    "fetchSpec": "1.6.2-alfa-3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/laravel-echo-server-whisper/-/laravel-echo-server-whisper-1.6.2-alfa-3.tgz",
+  "_spec": "1.6.2-alfa-3",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "Vlad Potar"
+  },
+  "bin": {
+    "laravel-echo-server": "bin/server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/haric655/laravel-echo-server/issues"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.1.0",
+    "ioredis": "^4.16.0",
+    "lodash": "^4.17.15",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0",
+    "socket.io-redis": "^5.3.0",
+    "yargs": "^15.3.1"
+  },
+  "description": "Laravel Echo Node JS Server for Socket.io with listen Whisper",
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.9.1",
+    "typescript": "^3.8.3"
+  },
+  "homepage": "https://github.com/haric655/laravel-echo-server#readme",
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "keywords": [
+    "laravel",
+    "socket.io"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "laravel-echo-server-whisper",
+  "peerDependecies": {
+    "sqlite3": "^3.1.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haric655/laravel-echo-server.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "prepublish": "npm run build"
+  },
+  "version": "1.6.2-alfa-3"
+}

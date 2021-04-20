@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      "parsleyjs@2.9.2",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "parsleyjs@2.9.2",
+  "_id": "parsleyjs@2.9.2",
+  "_inBundle": false,
+  "_integrity": "sha512-DKS2XXTjEUZ1BJWUzgXAr+550kFBZrom2WYweubqdV7WzdNC1hjOajZDfeBPoAZMkXumJPlB3v37IKatbiW8zQ==",
+  "_location": "/parsleyjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "parsleyjs@2.9.2",
+    "name": "parsleyjs",
+    "escapedName": "parsleyjs",
+    "rawSpec": "2.9.2",
+    "saveSpec": null,
+    "fetchSpec": "2.9.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/parsleyjs/-/parsleyjs-2.9.2.tgz",
+  "_spec": "2.9.2",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "Guillaume Potier",
+    "email": "guillaume@wisembly.com",
+    "url": "http://guillaumepotier.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumepotier/Parsley.js/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.8.0"
+  },
+  "description": "Validate your forms, frontend, without writing a single line of javascript!",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-object-assign": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "del": "^1.1.1",
+    "docco": "~0.6.3",
+    "expect.js": "*",
+    "glob": "^5.0.14",
+    "gulp": "~4.0.0",
+    "gulp-cli": "^2.0.0",
+    "gulp-eslint": "*",
+    "gulp-git": "*",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-mocha": "*",
+    "gulp-replace": "*",
+    "inputevent": "*",
+    "jsdom": "^9.2",
+    "mocha": "*",
+    "moment": "*",
+    "rollup": "*",
+    "rollup-plugin-babel": "*",
+    "rollup-plugin-replace": "*",
+    "rollup-plugin-uglify": "*",
+    "sinon": "^1.12.2"
+  },
+  "homepage": "http://parsleyjs.org",
+  "jspm": {
+    "main": "dist/parsley.js",
+    "dependencies": {
+      "jquery": "npm:jquery"
+    }
+  },
+  "keywords": [
+    "parsley",
+    "form",
+    "validation",
+    "html5",
+    "polyfill",
+    "es6"
+  ],
+  "license": "MIT",
+  "main": "dist/parsley.js",
+  "name": "parsleyjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumepotier/Parsley.js.git"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "coverage": "gulp coverage",
+    "test": "gulp",
+    "test-browser": "gulp test-browser"
+  },
+  "version": "2.9.2"
+}

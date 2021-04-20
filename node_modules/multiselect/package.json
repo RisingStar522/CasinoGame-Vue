@@ -1,0 +1,38 @@
+{
+  "_args": [
+    [
+      "multiselect@0.9.12",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "multiselect@0.9.12",
+  "_id": "multiselect@0.9.12",
+  "_inBundle": false,
+  "_integrity": "sha1-0VU26YbdagApsWDWYTvO34Hkx+0=",
+  "_location": "/multiselect",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "multiselect@0.9.12",
+    "name": "multiselect",
+    "escapedName": "multiselect",
+    "rawSpec": "0.9.12",
+    "saveSpec": null,
+    "fetchSpec": "0.9.12"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/multiselect/-/multiselect-0.9.12.tgz",
+  "_spec": "0.9.12",
+  "_where": "/var/www/html",
+  "dependencies": {
+    "jquery": ">= 1.7.1"
+  },
+  "description": "A user-friendlier drop-in replacement for the standard select with multiple attribute activated.",
+  "license": "WTFPL",
+  "main": "./js/jquery.multi-select.js",
+  "name": "multiselect",
+  "version": "0.9.12"
+}

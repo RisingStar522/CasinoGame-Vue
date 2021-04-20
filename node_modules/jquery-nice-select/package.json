@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "jquery-nice-select@1.1.0",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "jquery-nice-select@1.1.0",
+  "_id": "jquery-nice-select@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-nNWQ/q1Wr+a8zUEpQpP7o1YYnH0=",
+  "_location": "/jquery-nice-select",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "jquery-nice-select@1.1.0",
+    "name": "jquery-nice-select",
+    "escapedName": "jquery-nice-select",
+    "rawSpec": "1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-nice-select/-/jquery-nice-select-1.1.0.tgz",
+  "_spec": "1.1.0",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "Hernán Sartorio"
+  },
+  "bugs": {
+    "url": "https://github.com/hernansartorio/jquery-nice-select/issues"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3"
+  },
+  "description": "A lightweight jQuery plugin that replaces native select elements with customizable dropdowns.",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.8.0"
+  },
+  "homepage": "https://github.com/hernansartorio/jquery-nice-select#readme",
+  "license": "ISC",
+  "main": "./js/jquery.nice-select.min.js",
+  "name": "jquery-nice-select",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernansartorio/jquery-nice-select.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

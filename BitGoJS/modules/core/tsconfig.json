@@ -1,0 +1,27 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": ".",
+    "typeRoots": [
+      "./types",
+      "../../types",
+      "./node_modules/@types",
+      "../../node_modules/@types"
+    ],
+    "declarationDir": "./dist/types"
+  },
+  "include": [
+    "src/**/*",
+    "package.json"
+  ],
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs",
+    "title": "BitGo SDK Documentation",
+    "excludeNotExported": true,
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "ignoreCompilerErrors": true
+  }
+}

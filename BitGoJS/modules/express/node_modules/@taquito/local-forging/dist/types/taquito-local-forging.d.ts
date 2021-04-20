@@ -1,0 +1,16 @@
+import { ForgeParams, Forger } from '@taquito/taquito';
+import { CODEC } from './constants';
+export { CODEC } from './constants';
+export * from './decoder';
+export * from './encoder';
+export * from './uint8array-consumer';
+export declare function getCodec(codec: CODEC): {
+    encoder: import("./encoder").Encoder<any>;
+    decoder: (hex: string) => any;
+};
+export declare class LocalForger implements Forger {
+    private codec;
+    forge(params: ForgeParams): Promise<string>;
+    parse(hex: string): Promise<ForgeParams>;
+}
+export declare const localForger: LocalForger;

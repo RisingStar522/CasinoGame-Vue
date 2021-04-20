@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const { init } = require('../dist/src/expressApp');
+
+if (require.main === module) {
+  init()
+  .catch(err => {
+    console.log(`Fatal error: ${err.message}`);
+    console.log(err.stack);
+  });
+}

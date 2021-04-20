@@ -1,0 +1,52 @@
+{
+  "_args": [
+    [
+      "jquery-filepond@1.0.0",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "jquery-filepond@1.0.0",
+  "_id": "jquery-filepond@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ONxFHUsDMfkHFhVn+GwE8XtEFE3WhSNun5+h3KxW1RiVs2pnnkO/3WvQ+IjnLP4ywVkzEgkNXJaguxPH4Wz3aw==",
+  "_location": "/jquery-filepond",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "jquery-filepond@1.0.0",
+    "name": "jquery-filepond",
+    "escapedName": "jquery-filepond",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery-filepond/-/jquery-filepond-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "PQINA",
+    "url": "https://pqina.nl"
+  },
+  "dependencies": {},
+  "description": "A FilePond wrapper for jQuery",
+  "homepage": "https://pqina.nl/filepond",
+  "keywords": [
+    "jquery",
+    "filepond",
+    "file",
+    "upload",
+    "drag",
+    "drop",
+    "browse",
+    "image",
+    "preview"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "jquery-filepond",
+  "version": "1.0.0"
+}

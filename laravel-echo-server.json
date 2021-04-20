@@ -1,0 +1,41 @@
+{
+	"authHost": "https://crypto-casino.online",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "e0325c0aaf846d9a",
+			"key": "c5aa9a1acea5045b88aa9e2d21bd46b9"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {
+			"password": "s5vsQBCQfi5J8v30MvOiCkvk3rzz1foClFSYXXohJTY8x7EOTbimqaR6Cxb1Ep9fTi2BjDOOmv8dpSh8X5OO"
+		},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		},
+		"listenWhishper": true,
+		"prefixWhishper": "whisper"
+	},
+	"devMode": true,
+	"host": null,
+	"port": "2087",
+	"protocol": "https",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "/etc/letsencrypt/live/crypto-casino.online/fullchain.pem",
+	"sslKeyPath": "/etc/letsencrypt/live/crypto-casino.online/privkey.pem",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "http://127.0.0.1",
+		"allowMethods": "GET, POST",
+		"allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
+	}
+}

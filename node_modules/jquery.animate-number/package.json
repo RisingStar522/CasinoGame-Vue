@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "jquery.animate-number@0.0.14",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "jquery.animate-number@0.0.14",
+  "_id": "jquery.animate-number@0.0.14",
+  "_inBundle": false,
+  "_integrity": "sha1-kmO7h+PJrC4vwXPRbr1gdYmtMZg=",
+  "_location": "/jquery.animate-number",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "jquery.animate-number@0.0.14",
+    "name": "jquery.animate-number",
+    "escapedName": "jquery.animate-number",
+    "rawSpec": "0.0.14",
+    "saveSpec": null,
+    "fetchSpec": "0.0.14"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery.animate-number/-/jquery.animate-number-0.0.14.tgz",
+  "_spec": "0.0.14",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "Alexandr Borisov",
+    "url": "aishek@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/aishek/jquery-animateNumber/issues"
+  },
+  "dependencies": {
+    "jquery": ">= 1.7.0"
+  },
+  "description": "jQuery animate number plugin",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-closure-compiler": "~0.0.21",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "homepage": "https://github.com/aishek/jquery-animateNumber",
+  "keywords": [
+    "jquery",
+    "animate",
+    "number",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "license": "MIT",
+  "main": "jquery.animateNumber.js",
+  "name": "jquery.animate-number",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aishek/jquery-animateNumber.git"
+  },
+  "version": "0.0.14"
+}

@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "bootstrap-touchspin@4.3.0",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "bootstrap-touchspin@4.3.0",
+  "_id": "bootstrap-touchspin@4.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-jLynvVHYknc5c+90K0CTHzXADKxFGNCqD4u2N5MZwWuVNy2MovNRyKWGa/puuSebkdIFCqydVkziGWclhx3KKA==",
+  "_location": "/bootstrap-touchspin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "bootstrap-touchspin@4.3.0",
+    "name": "bootstrap-touchspin",
+    "escapedName": "bootstrap-touchspin",
+    "rawSpec": "4.3.0",
+    "saveSpec": null,
+    "fetchSpec": "4.3.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-touchspin/-/bootstrap-touchspin-4.3.0.tgz",
+  "_spec": "4.3.0",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "István Ujj-Mészáros",
+    "url": "https://github.com/istvan-ujjmeszaros"
+  },
+  "bugs": {
+    "url": "https://github.com/istvan-ujjmeszaros/bootstrap-touchspin/issues"
+  },
+  "contributors": [],
+  "description": "A mobile and touch friendly input spinner component for Bootstrap 3 & 4.",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  },
+  "homepage": "https://www.virtuosoft.eu/code/bootstrap-touchspin/",
+  "license": "Apache-2.0",
+  "main": "dist/jquery.bootstrap-touchspin.js",
+  "name": "bootstrap-touchspin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istvan-ujjmeszaros/bootstrap-touchspin.git"
+  },
+  "scripts": {
+    "concat": "grunt concat",
+    "test": "grunt travis --verbose"
+  },
+  "title": "Bootstrap Touchspin",
+  "version": "4.3.0"
+}

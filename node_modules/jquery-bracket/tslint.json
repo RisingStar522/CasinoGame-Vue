@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "max-classes-per-file": false,
+    "interface-name": false,
+    "no-bitwise": false,
+    "no-console": false
+  },
+  "extends": ["tslint:latest", "tslint-config-prettier"]
+}

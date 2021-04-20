@@ -1,0 +1,52 @@
+{
+  "_args": [
+    [
+      "provably-fair-verifier@1.0.0",
+      "/var/www/html"
+    ]
+  ],
+  "_from": "provably-fair-verifier@1.0.0",
+  "_id": "provably-fair-verifier@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Km/WnKg9wjKq2YKIsqgeAFLvJ/bdQodNUiEnQMtGUgBdQ8vrVqDx2R29/z0C28x2EBqLB21CXm4FHBrAupa8XA==",
+  "_location": "/provably-fair-verifier",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "provably-fair-verifier@1.0.0",
+    "name": "provably-fair-verifier",
+    "escapedName": "provably-fair-verifier",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/provably-fair-verifier/-/provably-fair-verifier-1.0.0.tgz",
+  "_spec": "1.0.0",
+  "_where": "/var/www/html",
+  "author": {
+    "name": "Win5X"
+  },
+  "bugs": {
+    "url": "https://github.com/Win5X/provably-fair-verifier/issues"
+  },
+  "dependencies": {
+    "js-sha256": "^0.9.0"
+  },
+  "description": "Win5X provably fair verifier",
+  "homepage": "https://github.com/Win5X/provably-fair-verifier#readme",
+  "license": "ISC",
+  "main": "bundle",
+  "name": "provably-fair-verifier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Win5X/provably-fair-verifier.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

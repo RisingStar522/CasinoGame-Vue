@@ -1,0 +1,47 @@
+export declare const ENTRYPOINT_MAX_LENGTH = 31;
+export declare enum CODEC {
+    SECRET = "secret",
+    RAW = "raw",
+    TZ1 = "tz1",
+    BRANCH = "branch",
+    ZARITH = "zarith",
+    PUBLIC_KEY = "public_key",
+    PKH = "pkh",
+    DELEGATE = "delegate",
+    SCRIPT = "script",
+    BALLOT_STATEMENT = "ballotStmt",
+    PROPOSAL = "proposal",
+    PROPOSAL_ARR = "proposalArr",
+    INT32 = "int32",
+    PARAMETERS = "parameters",
+    ADDRESS = "address",
+    OPERATION = "operation",
+    OP_ACTIVATE_ACCOUNT = "activate_account",
+    OP_DELEGATION = "delegation",
+    OP_TRANSACTION = "transaction",
+    OP_ORIGINATION = "origination",
+    OP_BALLOT = "ballot",
+    OP_ENDORSEMENT = "endorsement",
+    OP_SEED_NONCE_REVELATION = "seed_nonce_revelation",
+    OP_REVEAL = "reveal",
+    OP_PROPOSALS = "proposals",
+    MANAGER = "manager"
+}
+export declare const opMapping: {
+    [key: string]: string;
+};
+export declare const opMappingReverse: {
+    [key: string]: string;
+};
+export declare const kindMapping: {
+    [key: number]: string;
+};
+export declare const kindMappingReverse: {
+    [key: string]: string;
+};
+export declare const entrypointMapping: {
+    [key: string]: string;
+};
+export declare const entrypointMappingReverse: {
+    [key: string]: string;
+};
